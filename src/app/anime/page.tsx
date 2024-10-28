@@ -8,7 +8,6 @@ import { Box, Pagination, Stack, useMediaQuery, useTheme } from "@mui/material";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import AnimeCard from "./section/AnimeCard";
-import AnimeCardSkeleton from "./section/AnimeCardSkeleton";
 import NoData from "./section/NoData";
 
 export default function Anime() {
@@ -75,7 +74,7 @@ export default function Anime() {
         width="100%"
         direction="column"
         alignItems="center"
-        padding={{ xs: 2, md: 4, lg: 8 }}
+        padding={{ xs: 0, md: 4, lg: 8 }}
       >
         <SwTypography bold fontSize={50} color={theme.palette.primary.main} textAlign="center">
           Anime List
@@ -89,7 +88,7 @@ export default function Anime() {
           justifyContent="center"
         >
           {loading ? (
-            Array.from(new Array(25)).map((_, index) => <AnimeCardSkeleton key={index} />)
+            Array.from(new Array(25)).map((_, index) => <AnimeCard key={index} loading={loading} />)
           ) : animeList?.length > 0 ? (
             animeList?.map(
               (item: {

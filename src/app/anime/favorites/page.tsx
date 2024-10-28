@@ -36,22 +36,30 @@ export default function Favorites() {
           Favorite Anime List
         </SwTypography>
 
-        <Stack direction="row" flexWrap="wrap" justifyContent="center" width="100%">
-          {favoriteStore.items?.length > 0 ? (
-            favoriteStore.items.map((item) => (
-              <AnimeCard
-                key={item?.mal_id}
-                title={item?.title}
-                score={item?.score}
-                image={
-                  isMdDown ? item?.images?.webp?.image_url : item?.images?.webp?.large_image_url
-                }
-                onClick={() => handleClickAnime(item?.mal_id)}
-              />
-            ))
-          ) : (
-            <NoData />
-          )}
+        <Stack
+          width="80%"
+          flexWrap="wrap"
+          direction="row"
+          maxWidth="1200px"
+          justifyContent="center"
+        >
+          <Stack direction="row" flexWrap="wrap" justifyContent="center" width="100%">
+            {favoriteStore.items?.length > 0 ? (
+              favoriteStore.items.map((item) => (
+                <AnimeCard
+                  key={item?.mal_id}
+                  title={item?.title}
+                  score={item?.score}
+                  image={
+                    isMdDown ? item?.images?.webp?.image_url : item?.images?.webp?.large_image_url
+                  }
+                  onClick={() => handleClickAnime(item?.mal_id)}
+                />
+              ))
+            ) : (
+              <NoData />
+            )}
+          </Stack>
         </Stack>
       </Stack>
     </Box>

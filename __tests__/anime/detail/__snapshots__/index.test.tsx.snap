@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Detail Anime Page renders detail anime page unchanged 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-1umnjqz"
+  >
+    <div
+      class="MuiStack-root css-ew8gbl-MuiStack-root"
+    >
+      <div
+        class="MuiGrid2-root MuiGrid2-container MuiGrid2-direction-xs-row MuiGrid2-spacing-xs-2 css-1uznu0b-MuiGrid2-root"
+      >
+        <div
+          class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-xs-auto css-s27zw9-MuiGrid2-root"
+        >
+          <div
+            class="MuiBox-root css-seyscj"
+          >
+            <span
+              class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-glni3v-MuiSkeleton-root"
+              style="width: 100%; height: 100%;"
+            />
+          </div>
+          <span
+            class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-kkcbhd-MuiSkeleton-root"
+            style="width: 100%; height: 40px;"
+          />
+        </div>
+        <div
+          class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-xs-12 MuiGrid2-grid-md-grow css-1dehenb-MuiGrid2-root"
+        >
+          <div
+            class="MuiBox-root css-8atqhb"
+          >
+            <div
+              class="MuiGrid2-root MuiGrid2-container MuiGrid2-direction-xs-row MuiGrid2-spacing-xs-1 css-octady-MuiGrid2-root"
+            >
+              <div
+                class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-xs-12 MuiGrid2-grid-md-9 css-14u7pst-MuiGrid2-root"
+              >
+                <span
+                  class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-qdzeuw-MuiSkeleton-root"
+                  style="width: 70%; height: 40px;"
+                />
+              </div>
+              <div
+                class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-xs-12 MuiGrid2-grid-md-3 css-1ch5zus-MuiGrid2-root"
+              >
+                <span
+                  class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-198dyru-MuiSkeleton-root"
+                  style="height: 40px;"
+                />
+              </div>
+              <div
+                class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-xs-12 css-1j0u08r-MuiGrid2-root"
+              >
+                <span
+                  class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-kkcbhd-MuiSkeleton-root"
+                  style="width: 50px; height: 24px;"
+                />
+                <span
+                  class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-kkcbhd-MuiSkeleton-root"
+                  style="width: 90%; height: 24px;"
+                />
+                <span
+                  class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-kkcbhd-MuiSkeleton-root"
+                  style="width: 100%; height: 24px;"
+                />
+                <span
+                  class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-kkcbhd-MuiSkeleton-root"
+                  style="width: 90%; height: 24px;"
+                />
+                <span
+                  class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-kkcbhd-MuiSkeleton-root"
+                  style="width: 95%; height: 24px;"
+                />
+                <span
+                  class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-kkcbhd-MuiSkeleton-root"
+                  style="width: 70%; height: 24px;"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid2-root MuiGrid2-container MuiGrid2-direction-xs-row MuiGrid2-spacing-xs-2 css-ubb9a5-MuiGrid2-root"
+      >
+        <div
+          class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-xs-12 css-1j0u08r-MuiGrid2-root"
+        >
+          <span
+            class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse css-kkcbhd-MuiSkeleton-root"
+            style="width: 200px; height: 40px;"
+          />
+        </div>
+        <div
+          class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-xs-12 css-fva3m5-MuiGrid2-root"
+        >
+          <div
+            class="MuiStack-root css-6j2ymv-MuiStack-root"
+          >
+            <span
+              class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-8bt1m7-MuiSkeleton-root"
+              style="width: 150px; height: 200px;"
+            />
+            <span
+              class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-8bt1m7-MuiSkeleton-root"
+              style="width: 150px; height: 200px;"
+            />
+            <span
+              class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-8bt1m7-MuiSkeleton-root"
+              style="width: 150px; height: 200px;"
+            />
+            <span
+              class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-8bt1m7-MuiSkeleton-root"
+              style="width: 150px; height: 200px;"
+            />
+            <span
+              class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-8bt1m7-MuiSkeleton-root"
+              style="width: 150px; height: 200px;"
+            />
+            <span
+              class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-8bt1m7-MuiSkeleton-root"
+              style="width: 150px; height: 200px;"
+            />
+            <span
+              class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-8bt1m7-MuiSkeleton-root"
+              style="width: 150px; height: 200px;"
+            />
+            <span
+              class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-8bt1m7-MuiSkeleton-root"
+              style="width: 150px; height: 200px;"
+            />
+            <span
+              class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-8bt1m7-MuiSkeleton-root"
+              style="width: 150px; height: 200px;"
+            />
+            <span
+              class="MuiSkeleton-root MuiSkeleton-rectangular MuiSkeleton-pulse css-8bt1m7-MuiSkeleton-root"
+              style="width: 150px; height: 200px;"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

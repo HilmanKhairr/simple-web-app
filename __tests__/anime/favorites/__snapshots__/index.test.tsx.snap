@@ -14,27 +14,31 @@ exports[`Favorites Page renders favorites page unchanged 1`] = `
         Favorite Anime List
       </p>
       <div
-        class="MuiStack-root css-die16v-MuiStack-root"
+        class="MuiStack-root css-1hvz2vv-MuiStack-root"
       >
         <div
-          class="MuiStack-root css-1y6b24e-MuiStack-root"
+          class="MuiStack-root css-die16v-MuiStack-root"
         >
-          <img
-            alt="not found image"
-            data-nimg="1"
-            decoding="async"
-            height="300"
-            loading="lazy"
-            src="/_next/image?url=%2Fimg.jpg&w=640&q=75"
-            srcset="/_next/image?url=%2Fimg.jpg&w=384&q=75 1x, /_next/image?url=%2Fimg.jpg&w=640&q=75 2x"
-            style="color: transparent; min-width: 200px;"
-            width="300"
-          />
-          <p
-            class="MuiTypography-root MuiTypography-body1 css-frmfth-MuiTypography-root"
+          <div
+            class="MuiStack-root css-1y6b24e-MuiStack-root"
           >
-            No data found
-          </p>
+            <img
+              alt="not found image"
+              data-nimg="1"
+              decoding="async"
+              height="300"
+              loading="lazy"
+              src="/_next/image?url=%2Fimg.jpg&w=640&q=75"
+              srcset="/_next/image?url=%2Fimg.jpg&w=384&q=75 1x, /_next/image?url=%2Fimg.jpg&w=640&q=75 2x"
+              style="color: transparent; min-width: 200px;"
+              width="300"
+            />
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-frmfth-MuiTypography-root"
+            >
+              No data found
+            </p>
+          </div>
         </div>
       </div>
     </div>
