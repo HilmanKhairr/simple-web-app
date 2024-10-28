@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Favorites Page renders favorites page unchanged 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-0"
+  >
+    <div
+      class="MuiStack-root css-lnrj8u-MuiStack-root"
+    >
+      <p
+        class="MuiTypography-root MuiTypography-body1 css-1ipgrmm-MuiTypography-root"
+      >
+        Favorite Anime List
+      </p>
+      <div
+        class="MuiStack-root css-die16v-MuiStack-root"
+      >
+        <div
+          class="MuiStack-root css-1y6b24e-MuiStack-root"
+        >
+          <img
+            alt="not found image"
+            data-nimg="1"
+            decoding="async"
+            height="300"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=640&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=384&q=75 1x, /_next/image?url=%2Fimg.jpg&w=640&q=75 2x"
+            style="color: transparent; min-width: 200px;"
+            width="300"
+          />
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-frmfth-MuiTypography-root"
+          >
+            No data found
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
